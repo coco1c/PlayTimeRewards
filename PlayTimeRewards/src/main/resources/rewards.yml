@@ -1,0 +1,43 @@
+title: "&aRewards"
+size: 6
+navigators:
+  back:
+    item: "ARROW:0"
+    name: "&aLast Page"
+    slot: 24
+  forward:
+    item: "ARROW:0"
+    name: "&aNext Page"
+    slot: 26
+fill-empty:
+  enabled: true
+  item: "BLACK_STAINED_GLASS_PANE:0"
+  name: "&aItem"
+rewards:
+  reward-1:
+    name: "&aReward 1"
+    slot: 12
+    page: 1
+    item: "ENDER_CHEST:0"
+    enchanted: false
+    reward-sound: "ENTITY_VILLAGER_YES"
+    lore:
+      - ""
+      - "WOW! (%playtime_time%/%required-play-time%)"
+    reward-claimed-item:
+      name: "&aReward 1 &7(CLAIMED)"
+      item: "ENDER_CHEST:0"
+      enchanted: false
+      lore:
+        - ""
+        - "CLAIMED!"
+    commands:
+      - "say {player} hi!"
+    required-vote: 1
+    required-level: 1
+    required-play-time:
+      weeks: 0
+      days: 0
+      hours: 0
+      minutes: 10
+      seconds: 0

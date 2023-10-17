@@ -1,0 +1,8 @@
+not-enough-play-time: "&cYou don't have enough play time/votes/levels!"
+console: "&cYou need to be in-game to use this command!"
+no-permission: "&cYou don't have permission to do that!"
+player-not-found: "&cPlayer not found!"
+reload: "&aPlugin have been reloaded!"
+already-rewarded: "&cYou have already claimed this reward!"
+play-time:
+  - "&aYour play time is %playtime_time%"

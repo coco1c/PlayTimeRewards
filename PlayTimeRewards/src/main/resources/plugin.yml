@@ -1,0 +1,5 @@
+name: PlayTimeRewards
+version: 1.0.0
+main: com.coco.mc.LiteMCPlayTimeReward
+api-version: '1.17'
+depend: [PlaceholderAPI]

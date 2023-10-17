@@ -1,0 +1,20 @@
+stats-gui:
+  title: "&a7Play Time Stats"
+  size: 6
+  fill-empty:
+    enabled: true
+    item: "BLACK_STAINED_GLASS_PANE:0"
+    name: "&aItem"
+  items:
+    stats:
+      name: "&aStats"
+      item: "player_head:{player}"
+      enchanted: false
+      slot: 13
+      lore:
+        - ""
+        - "&7Play Time: %playtime_time%"
+        - "&7Uptime: %playtime_serveruptime%"
+        - "&7Position: %playtime_position%"
+        - "&7Times Joined: %playtime_times_joined%"
+        - "&7Your Name: %playtime_player%"
